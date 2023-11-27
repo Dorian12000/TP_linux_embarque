@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
-#include <time.h>
 
 #define N_LED 9
 #define BUF_SIZE 128

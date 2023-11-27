@@ -9,7 +9,7 @@ OBJECTS = $(SOURCES:.c=.o)
 
 # Output executable name
 EXECUTABLE = main
-REMOTE_TARGET = root@192.168.88.84:~/Document
+REMOTE_TARGET = root@192.168.88.65:~/Document
 
 # Default target
 all: $(EXECUTABLE) copy_remote
